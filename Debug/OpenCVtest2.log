@@ -1,0 +1,32 @@
+﻿生成启动时间为 2013/1/13 14:48:58。
+     1>项目“F:\VC2010_Projects\OpenCVtest2\OpenCVtest2.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\OpenCVtest2.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\OpenCVtest2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test2.cpp
+         test2.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 d:\program files\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenCVtest2.exe.embed.manifest.res" Debug\OpenCVtest2_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.exe" /INCREMENTAL /NOLOGO /LIBPATH:opencv_flann231d.lib /LIBPATH:opencv_legacy231d.lib /LIBPATH:opencv_contrib231d.lib /LIBPATH:opencv_objdetect231d.lib /LIBPATH:opencv_calib3d231d.lib /LIBPATH:opencv_features2d231d.lib /LIBPATH:opencv_video231d.lib /LIBPATH:opencv_ml231d.lib /LIBPATH:opencv_highgui231d.lib /LIBPATH:opencv_imgproc231d.lib /LIBPATH:opencv_core231d.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCVtest2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.lib" /MACHINE:X86 Debug\OpenCVtest2.exe.embed.manifest.res
+         Debug\test2.obj
+       Manifest:
+         正在删除文件“Debug\OpenCVtest2.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenCVtest2.exe.embed.manifest" /manifest Debug\OpenCVtest2.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenCVtest2.exe.embed.manifest.res" Debug\OpenCVtest2_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.exe" /INCREMENTAL /NOLOGO /LIBPATH:opencv_flann231d.lib /LIBPATH:opencv_legacy231d.lib /LIBPATH:opencv_contrib231d.lib /LIBPATH:opencv_objdetect231d.lib /LIBPATH:opencv_calib3d231d.lib /LIBPATH:opencv_features2d231d.lib /LIBPATH:opencv_video231d.lib /LIBPATH:opencv_ml231d.lib /LIBPATH:opencv_highgui231d.lib /LIBPATH:opencv_imgproc231d.lib /LIBPATH:opencv_core231d.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCVtest2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.lib" /MACHINE:X86 Debug\OpenCVtest2.exe.embed.manifest.res
+         Debug\test2.obj
+         OpenCVtest2.vcxproj -> F:\VC2010_Projects\OpenCVtest2\Debug\OpenCVtest2.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OpenCVtest2.unsuccessfulbuild”。
+         正在对“Debug\OpenCVtest2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VC2010_Projects\OpenCVtest2\OpenCVtest2.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.48
